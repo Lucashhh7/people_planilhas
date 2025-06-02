@@ -1,0 +1,74 @@
+ body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 40px;
+    }
+
+    .setor {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    .setor h2 {
+      margin-top: 0;
+      color: #2c3e50;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+
+     .ramal {
+      display: flex;
+      justify-content: flex-start;
+      position: relative;           
+      padding: 8px 0;
+      border-bottom: 1px solid #f0f0f0;
+    }
+
+    .ramal:last-child {
+      border-bottom: none;
+    }
+
+    .nome {
+      font-weight: bold;
+      color: #444;
+    }
+
+   .numero {
+  position: absolute;
+  left: 20%;
+  transform: translateX(-50%);
+  color: #888;
+  font-weight: 600;
+}
+
+    @media (max-width: 600px) {
+      .ramal {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+   .marca-dagua {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      font-size: 0.75rem;
+      background: rgba(255, 255, 255, 0.7);
+      padding: 6px 12px;
+      border-radius: 12px;
+      color: #8e8e93;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(6px);
+      z-index: 1000;
+
+    }
